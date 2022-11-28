@@ -33,6 +33,23 @@ const Skill = () => {
             <span className='font-bold text-blue-600'>React Js</span>
            <progress className="progress progress-success " value="70" max="100"></progress>
            </div>
+           <div>
+            <span className='font-bold text-blue-600'>ES-6</span>
+           <progress className="progress progress-success " value="70" max="100"></progress>
+           </div>
+           <div>
+            <span className='font-bold'>Node js</span>
+           <progress className="progress progress-success " value="70" max="100"></progress>
+           </div>
+             
+           <div>
+            <span className='font-bold'>Express js</span>
+           <progress className="progress progress-success " value="70" max="100"></progress>
+           </div>
+           <div>
+            <span className='font-bold'>Mongodb</span>
+           <progress className="progress progress-success " value="70" max="100"></progress>
+           </div>
              
             </div>
             
