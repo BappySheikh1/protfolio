@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
   const menuItem=<React.Fragment>
-            <li><a href='#'>Contact</a></li>
+            <li><a href='#6'>Contact</a></li>
             <li><a href='#'>Resume</a></li>
   </React.Fragment>
     return (
