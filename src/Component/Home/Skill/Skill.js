@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-        <div>
+        <div className='px-4'>
             <h2 className='text-4xl font-bold text-center'>My Skill</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 my-5'>
            <div className=''>
@@ -39,7 +39,7 @@ const Skill = () => {
            </div>
            <div>
             <span className='font-bold'>Node js</span>
-           <progress className="progress progress-success " value="70" max="100"></progress>
+           <progress className="progress progress-success " value="60" max="100"></progress>
            </div>
              
            <div>
@@ -48,7 +48,7 @@ const Skill = () => {
            </div>
            <div>
             <span className='font-bold'>Mongodb</span>
-           <progress className="progress progress-success " value="70" max="100"></progress>
+           <progress className="progress progress-success " value="60" max="100"></progress>
            </div>
              
             </div>

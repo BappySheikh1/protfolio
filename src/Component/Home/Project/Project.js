@@ -5,7 +5,7 @@ import img3 from '../../../assets/pexels-hasan-albari-1229861.jpg'
 
 const Project = () => {
     return (
-        <div className='my-20'>
+        <div className='my-20 px-4'>
              <h3 className='text-4xl font-bold text-center my-5'>My Project</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
 
