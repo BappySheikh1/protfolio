@@ -17,10 +17,11 @@ const ContactForm = () => {
          .then((result) => {
              console.log(result.text);
              toast.success('submitted successfully')
+             
          }, (error) => {
              console.log(error.text);
          });
-
+         form.reset()
      }
 
     return (

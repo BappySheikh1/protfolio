@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../../../assets/wizy.jpg'
-import img2 from '../../../assets/3.jpg'
+import img2 from '../../../assets/bike.png'
 import img3 from '../../../assets/pexels-hasan-albari-1229861.jpg'
 
 const Project = () => {
@@ -13,7 +13,13 @@ const Project = () => {
             <figure><img src={img1} alt="logo" /></figure>
               <div className="card-body">
              <h2 className="card-title">Widzy</h2>
-             <p>wild life photography</p>
+             <p>MERN Stack special wild photograph on our website!
+          This Site Is photography Platfrom!
+              <br />
+              <span className='font-bold text-white'>Technology</span>: ReactJS , React Router , Firebase, JavaScript Tailwind CSS, HTML,
+                CSS Node js, Express js Mongodb, daisy
+             </p>
+            
              <div className="card-actions justify-end">
              <a href="https://assignment11-client-3d043.firebaseapp.com/" target='_blank' className='btn rounded-xl border-none hover:bg-blue-700 bg-blue-700'>Visit Website</a>
               </div>
@@ -24,11 +30,15 @@ const Project = () => {
             <figure><img src={img2} alt="logo" /></figure>
               <div className="card-body">
              <h2 className="card-title">
-              Car Service
+              Bikefair
              </h2>
-             <p>Car service website</p>
+             <p>MERN Stack special resell website!! This Site Is Bike resell website!
+             <br />
+              <span className='font-bold text-white'>Technology</span>: ReactJS , React Router , Firebase, JavaScript Tailwind CSS, HTML,
+                CSS Node js, Express js Mongodb, daisy
+             </p>
              <div className="card-actions justify-end">
-             <a href="https://genius-car-31ddf.firebaseapp.com/" target='_blank' className='btn rounded-xl border-none hover:bg-blue-700 bg-blue-700'>Visit website</a>
+             <a href="https://assingment12-client.firebaseapp.com/" target='_blank' className='btn rounded-xl border-none hover:bg-blue-700 bg-blue-700'>Visit website</a>
               </div>
            </div>
               </div>
@@ -36,7 +46,11 @@ const Project = () => {
             <figure><img src={img3} alt="logo" /></figure>
               <div className="card-body">
              <h2 className="card-title">MaxCoach!</h2>
-             <p>This is learning website for programming language quiz?</p>
+             <p>Full Stack website This Site Is Educational Platform!
+             <br />
+              <span className='font-bold text-white'>Technology</span>: ReactJS , React Router , Firebase, JavaScript
+                  React Bootstrap, HTML, CSS, Node js, Express js, React Icon
+              </p>
              <div className="card-actions justify-end">
              <a href="https://learning-website-client-f3d12.firebaseapp.com/" target='_blank' className='btn rounded-xl border-none hover:bg-blue-700 bg-blue-700'>Visit Website</a>
 

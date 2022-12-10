@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsCodeSlash, BsPhone} from 'react-icons/bs';
+import {BsCodeSlash, BsPhone,BsFillBrushFill} from 'react-icons/bs';
 
 const Service = () => {
     return (
@@ -36,7 +36,7 @@ const Service = () => {
                 <div style={{height:'160px'}} className="card shadow-xl">
                   <div className="card-body">
                   <div className='mx-auto'>
-                        <BsCodeSlash className='text-3xl' />
+                        <BsFillBrushFill className='text-3xl' />
                     </div>
                     <h2 className="text-xl font-bold text-center text-white">Web Design</h2>
                     <p className=''>Web Design is the main part for an website, it's satisfy user experience and attract user</p>

@@ -15,7 +15,11 @@ const Banner = () => {
                <div className='flex items-center mt-3'>
                  <a href="https://github.com/BappySheikh1" target="_blank"><BsGithub className='text-3xl text-white' /></a>
                  <a href="https://www.linkedin.com/in/bappy-sheikh123/" target="_blank"><BsLinkedin className='text-3xl text-white mx-3'/></a>
-                 <button className='btn text-red-700 font-bold'>My Resume</button>
+
+                 <a href="https://drive.google.com/file/d/1CnIOc2yixgwelo7ogHEliY9xep77eFlP/view?usp=share_link" target="_blank" >
+
+                 <button className='btn text-red-700 font-bold'>Show Resume</button>
+                 </a>
                </div>
             </div>
             <div className='mt-5'>
