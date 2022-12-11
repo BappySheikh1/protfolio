@@ -4,11 +4,15 @@ import { Link } from 'react-router-dom';
 const Header = () => {
 
   const menuItem=<React.Fragment>
-        
+        <li><a href='#connect'>Contact </a></li>
+        <li><a href='#project'>Projects</a></li>
+        <li><a href='#skill'>Skills</a></li>
+        <li><a href='#aboutMe'>About Me</a></li>
+        <li><a href='#blog'>Blog</a></li>
   </React.Fragment>
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 fixed">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +24,7 @@ const Header = () => {
 
       </ul>
     </div>
-    <Link className="btn btn-ghost normal-case text-2xl">MD Bappy Sheikh</Link>
+    <Link to='/' className="btn btn-ghost normal-case text-2xl">MD Bappy Sheikh</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
